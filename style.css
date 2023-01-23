@@ -45,3 +45,15 @@ img{
     flex-wrap: wrap;
     height: 80px;
   }
+
+  input{
+    border: 1px solid rgb(121, 118, 118);
+    border-radius: 7px;
+    width: 200px;
+    height: 1.5em;
+  }
+  
+  label{
+    font-size:0.8em;
+    color: rgb(122, 49, 15);
+  }
