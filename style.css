@@ -2,14 +2,14 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh;
 }
 
-img{
+.pic-container{
     position: sticky;
-    height: 100vh;
-    width: 40vw;
+    width: 60vw;
     background-size: cover;
+    background-repeat: repeat;
+    background-image: url("img/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
 }
 
 
@@ -69,8 +69,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 605px;
+    position: sticky;
+    top: 100px;
     padding: 15px;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.8em;
