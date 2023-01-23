@@ -12,3 +12,17 @@ img{
 }
 
 
+.sign-up-container > .para{
+    margin-left: 30px;
+    margin-top: 90px;
+    color: rgb(122, 49, 15);
+    font-size: 1.2em;
+    font-family: 'Rowdies', cursive;
+  }
+  
+  .sign-up-items{
+    background-color: rgb(255, 230, 215);
+    padding-top: 30px;
+    box-shadow:  0 10px 10px rgb(226, 194, 194);
+  }
+  
