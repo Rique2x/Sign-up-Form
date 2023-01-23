@@ -62,3 +62,23 @@ img{
     position: relative;
     left: 50px;
   }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 650px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.8em;
+    color: rgb(255, 254, 254);
+    opacity: 0.6;
+    background-color: black;
+  }
+  
+  .title > img{
+    height: 100px;
+    width: 100px;
+  }
+  
