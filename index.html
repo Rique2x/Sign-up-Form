@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Sign-up Form</title>
 </head>
 <body>
     <div class="pic-container">
         <div class="pic-item">
-            <img src="img/jake-blucker-tMzCrBkM99Y-unsplash.jpg" alt="">
+            <img src="img/jake-blucker-tMzCrBkM99Y-unsplash.jpg" alt=""> 
+        </div>
+        
+        <div class="title">
+            <img src="img/odin-lined.png" alt="">
+                Project Road
         </div>
     </div>
     
     <div class="sign-up-container">
         
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-        <p>You know you want to. </p>
+        <div class="para">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+           <p>You know you want to!</p></div>
         
         <div class="sign-up-items">
             
@@ -26,33 +37,34 @@
             <form action="#">
                 <div>
                     <label for="first_name">FIRST NAME</label>
+                    <input id="first-name" type="text" name="first_name" required>
                 </div>
-                <input id="first-name" type="text" name="first_name" required>
 
-                <div>
+                <div class="ln">
                     <label for="last_name">LAST NAME</label>
+                    <input id="last-name" type="text" name="last_name" required>
                 </div>
-                <input id="last-name" type="text" name="last_name" required>
 
                 <div>
                     <label for="email">EMAIL</label>
+                    <input id="email" type="email" name="email" required>
                 </div>
-                <input id="email" type="email" name="email" required>
 
-                <div>
+                <div class="pn">
                     <label for="phone_number">PHONE NUMBER</label>
+                    <input id="phone-number" type="tel" name="phone_number" required>
                 </div>
-                <input id="phone-number" type="tel" name="phone_number" required>
 
                 <div>
                     <label for="password">PASSWORD</label>
-                </div>
-                <input id="password" type="password" name="password" required>
+                    <input id="password" type="password" name="password" required>
 
-                <div>
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
                 </div>
-                <input id="confirm-password" type="password" name="confirm_password" required>
+
+                <div class="cp">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input id="confirm-password" type="password" name="confirm_password" required>
+                </div>
 
             </form>
         </div>
