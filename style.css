@@ -26,3 +26,22 @@ img{
     box-shadow:  0 10px 10px rgb(226, 194, 194);
   }
   
+  .sign-up-items > p{
+    margin-left: 30px;
+    color: rgb(122, 49, 15);
+    font-size: 1.2em;
+    font-family: 'Rowdies', cursive;
+  }
+  
+  
+  .sign-up-items > form{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+  }
+  
+  form > div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+  }
