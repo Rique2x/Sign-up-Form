@@ -108,3 +108,18 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(122, 49, 15);
   }
+  
+
+  .credits{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: 130px;
+  }
+
+  .credits > p, a{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: monospace;
+  }
