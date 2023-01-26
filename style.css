@@ -4,6 +4,8 @@ body{
     display: flex;
 }
 
+/*PIC CONTAINER*/
+
 .pic-container{
     position: sticky;
     width: 60vw;
