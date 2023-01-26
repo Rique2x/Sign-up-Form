@@ -65,6 +65,8 @@ body{
     left: 50px;
   }
 
+  /*TITLE*/
+
   .title{
     display: flex;
     justify-content: center;
