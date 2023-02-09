@@ -4,8 +4,8 @@ function confirmPass() {
     const confPass = document.getElementById("confirm-password").value
     
     if(pass != confPass) {
-        //alert('Wrong confirm password !');
-        document.getElementById('error').innerHTML='wrong confirm password';
+        //alert('Password doesnt match!');
+        document.getElementById('error').innerHTML='Password doesnt match!';
     }
     else
     {
