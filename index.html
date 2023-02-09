@@ -62,13 +62,13 @@
 
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input id="password" type="password" name="password" required>
+                    <input id="password" type="password" name="password" value="" onblur="passchk()" required>
 
                 </div>
 
                 <div class="cp">
                     <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input id="confirm-password" type="password" name="confirm_password" required>
+                    <input id="confirm-password" type="password" name="confirm_password" value="" onblur="confirmPass()" required>
              </div>
         </div>
 
@@ -80,5 +80,7 @@
         </div>
     </form>
 </div>
+
+<script src="app.js"></script>
 </body>
 </html>
