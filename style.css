@@ -1,14 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: 500px 1000px;
 }
 
 /*PIC CONTAINER*/
 
 .pic-container{
     position: sticky;
-    width: 60vw;
+  
     background-size: cover;
     background-repeat: repeat;
     background-image: url("img/jake-blucker-tMzCrBkM99Y-unsplash.jpg");
@@ -135,7 +136,7 @@ body{
 
   /*MOBILE VERSION*/
 
-  @media (max-width: 550px){
+  @media (max-width: 576px){
     body{
         display: flex;
         flex-direction: column;
@@ -178,3 +179,4 @@ body{
     }
     
   }
+
